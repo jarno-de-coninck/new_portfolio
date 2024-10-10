@@ -34,7 +34,7 @@ function NewPage({ setCurrentPage, currentPage }) {
                 I believe in balancing work and play to maintain a well-rounded life. I find joy in collaborating with others and am always eager to learn new things and take on challenges. My passion for technology drives me to constantly improve my skills, and my dedication to my studies and hobbies helps me stay motivated and inspired. Ultimately, I aim to combine my technical expertise with my creative interests to make a positive impact in the software development field.</p>
             </div>
             <div className="d-flex gap-5">
-              <StyledButton text="My CV" className="px-5 ms-auto" onClick={() => window.open('./CV.pdf', '_blank')} />
+              <StyledButton text="My resume" className="px-5 ms-auto" onClick={() => window.open('./cv_2024.pdf', '_blank')} />
             </div>
           </div>
         )}
