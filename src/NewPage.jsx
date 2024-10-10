@@ -43,15 +43,15 @@ function NewPage({ setCurrentPage, currentPage }) {
             <div className="scrollingFrame h-75 mb-2 bg-black">
               <img src="images/Experience.png" className='w-100' alt="" height={350} width={700} />
               <h2 className='text-center mt-3'>Experience</h2>
-              <h5 className='mainColor'>Internship Unitron</h5>
-              <p>During my third-year internship at Unitron in IJzendijke, I had a rewarding experience as a software developer. Working on enhancing the RMA software allowed me to dive deep into the Django framework, gaining valuable insights and skills along the way. The hands-on experience and guidance from the team helped me grow professionally and reinforced my passion for software development.</p>
+              <h5 className='mainColor'>Internship Epesi</h5>
+              <p>During my third-year internship at Epesi in Middelburg, I had a rewarding experience as a software developer. Working on making a football logging app, for this project I had to learn flutter, dart, flutterflow and a little bit of laravel. Overall this internshi was very good for my development as a software developer</p>
               <h5 className='mainColor'>Education</h5>
-              <p>I'm currently enrolled in a software development program at Scalda in Vlissingen. It's a level 4 course, and I'm now in my third year. This journey has been quite exciting and enriching for me. I've been delving deep into various aspects of software development, learning about coding languages, algorithms, and software design.
+              <p>I'm currently enrolled in a software development program at Scalda in Vlissingen. It's a level 4 course, and I'm now in my fourth year, the exam year. This journey has been quite exciting and enriching for me. I've been delving deep into various aspects of software development, learning about coding languages, algorithms, and software design.
 
                 Being part of this program has allowed me to explore my passion for technology and develop practical skills that are essential in today's digital world. From writing code to troubleshooting and debugging, every aspect of software development has fascinated me.</p>
             </div>
             <div className="d-flex justify-content-end gap-3">
-              <StyledButton text="Unitron" className="px-5" onClick={() => window.open("https://www.unitron.nl/wie-we-zijn/", '_blank')} />
+              <StyledButton text="Epesi" className="px-5" onClick={() => window.open("https://www.epesi.nl/", '_blank')} />
               <StyledButton text="School" className="px-5" onClick={() => window.open("https://scalda.nl/", '_blank')} />
             </div>
           </div>
